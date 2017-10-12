@@ -1,0 +1,11 @@
+<%= render 'page/user_navbar' %>
+
+
+<div class="row ri">
+  <div class="col l4 offset-l4 s12">
+    <h4>Nova Loja</h4>
+<%= render 'form', loja: @loja %>
+<%= link_to 'Back', loja_path %>
+</div>
+</div>
+<%= render 'page/user_footer' %>

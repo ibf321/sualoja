@@ -1,0 +1,36 @@
+
+<%= render 'page/user_navbar' %>
+
+
+<div class="row ri">
+  <div class="col l4 offset-l4 s12">
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @loja.name %>
+</p>
+
+<p>
+  <strong>Descrcao:</strong>
+  <%= @loja.descrcao %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @loja.tag %>
+</p>
+
+<p>
+  <strong>Segmente:</strong>
+  <%= @loja.segmente %>
+</p>
+
+<%= link_to 'Edit', edit_loja_path(@loja) %> |
+<%= link_to 'Back', lojas_path %>
+
+</div>
+</div>
+
+<%= render 'page/user_footer' %>
