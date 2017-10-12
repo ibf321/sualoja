@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# sualoja
+T. tópicos especiais 
+>>>>>>> e881c0da3cadfe43f3b9d649b2f2de593af154ed
