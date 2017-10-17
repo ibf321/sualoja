@@ -11,12 +11,23 @@
                   </div>
                   <div class="card-action">
                     <a class="waves-effect waves-light btn modal-trigger" href="#">Sobre</a>
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
                     <a class="waves-effect waves-light btn modal-trigger" href="#">Página</a>
                   </div>
                 </div>
               </div>
             </div>
           </tr>
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <span class="card-title"><%= loja.name %></span>
+              <p><%= loja.descrcao %></p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+            </div>
+          </div>
         <% end %>
 
         <%= paginate @lojas %>
